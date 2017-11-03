@@ -1,0 +1,60 @@
+.row {
+	min-height: 16.667%;
+	padding-top: 2em;
+	/*border: 1px dotted black;*/
+}
+h4 {
+	text-align: center;
+}
+img {
+	max-width: 100%;
+    height: auto;
+}
+div	{
+  /*padding: 8rem 0 7rem;*/
+  text-align: center;
+}
+#photo {
+	/*padding-top: 34em;*/
+	/*background-image: url("../images/smiling.jpg")*/
+}
+#photo img {
+	width: 100%;
+}
+ #map {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+#map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+table {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+#icon-phone, #icon-address {
+	max-width: 6%;
+	vertical-align: top;
+}
+#review-comment {
+	font-style: italic;
+}
+#social {
+	border: 1px dotted black;
+}
+.social-links {
+	margin: -10em 0 2em 1em;
+	display: inline-block;
+}
+#hours {
+	max-width: 33%;
+}
